@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/buySphere/static/css/main.889cd6df.css",
-    "main.js": "/buySphere/static/js/main.c770281a.js",
+    "main.js": "/buySphere/static/js/main.4a8fb637.js",
     "static/media/product_9.png": "/buySphere/static/media/product_9.c801212aa3bed83e7572.png",
     "static/media/heroIcon.png": "/buySphere/static/media/heroIcon.81f01ed5ac633f144b8e.png",
     "static/media/xyz.png": "/buySphere/static/media/xyz.ccd57355c70c3c5ec146.png",
@@ -44,10 +44,10 @@
     "static/media/hand_icon.png": "/buySphere/static/media/hand_icon.9c7487cecb600f30901b.png",
     "index.html": "/buySphere/index.html",
     "main.889cd6df.css.map": "/buySphere/static/css/main.889cd6df.css.map",
-    "main.c770281a.js.map": "/buySphere/static/js/main.c770281a.js.map"
+    "main.4a8fb637.js.map": "/buySphere/static/js/main.4a8fb637.js.map"
   },
   "entrypoints": [
     "static/css/main.889cd6df.css",
-    "static/js/main.c770281a.js"
+    "static/js/main.4a8fb637.js"
   ]
 }
