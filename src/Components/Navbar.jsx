@@ -26,15 +26,15 @@ function Navbar(){
                 </div>
                 
                 <ul className="nav-menu">
-                    <li onClick={()=>setMenu("a")}><Link style={{textDecoration:"none"}} to="/">Shop{ menu==="a" ? <hr/> : <></>}</Link></li>
-                    <li onClick={()=>setMenu("b")}><Link style={{textDecoration:"none"}} to="/mens">Men{ menu==="b" ? <hr/> : <></>}</Link></li>
-                    <li onClick={()=>setMenu("c")}><Link style={{textDecoration:"none"}} to="/womens">Women{ menu==="c" ? <hr/> : <></>}</Link></li>
-                    <li onClick={()=>setMenu("d")}><Link style={{textDecoration:"none"}} to="/kids">Kids{ menu==="d" ? <hr/> : <></>}</Link></li>
+                    <li onClick={()=>setMenu("a")}><Link style={{textDecoration:"none"}} to="/buySphere/">Shop{ menu==="a" ? <hr/> : <></>}</Link></li>
+                    <li onClick={()=>setMenu("b")}><Link style={{textDecoration:"none"}} to="/buySphere/mens">Men{ menu==="b" ? <hr/> : <></>}</Link></li>
+                    <li onClick={()=>setMenu("c")}><Link style={{textDecoration:"none"}} to="/buySphere/womens">Women{ menu==="c" ? <hr/> : <></>}</Link></li>
+                    <li onClick={()=>setMenu("d")}><Link style={{textDecoration:"none"}} to="/buySphere/kids">Kids{ menu==="d" ? <hr/> : <></>}</Link></li>
                 </ul>
 
                 <div className="nav-login-cart">
-                    <Link to="/login"><button>Login</button></Link>
-                    <Link to="/cart"><img src={cartIcon}/></Link>
+                    <Link to="/buySphere/login"><button>Login</button></Link>
+                    <Link to="/buySphere/cart"><img src={cartIcon}/></Link>
                     <div className="nav-cart-count">{getTotalCartItems()}</div>
                 </div>
 
@@ -47,7 +47,7 @@ function Navbar(){
 
                 <div className="nav-right">
                     <div className="nav-cart-count-res">
-                        <Link to="/cart"><HiOutlineShoppingCart size={40} style={{color:"black"}}/></Link>
+                        <Link to="/buySphere/cart"><HiOutlineShoppingCart size={40} style={{color:"black"}}/></Link>
                         <div className="nav-cart-count-res-num">{getTotalCartItems()}</div>
                     </div>
 
@@ -61,12 +61,12 @@ function Navbar(){
                         <RxCross1 size={35} style={{position:"absolute", top:"12px", right:"10px"}} onClick={handleMenuClick}/>
                     </div>
                     <ul>
-                        <li onClick={()=>setMenu("a")}><Link style={{textDecoration:"none", color:"white"}} to="/" onClick={handleMenuClick}>SHOP{ menu==="a" ? <hr/> : <></>}</Link></li>
-                        <li onClick={()=>setMenu("b")}><Link style={{textDecoration:"none", color:"white"}} to="/mens" onClick={handleMenuClick}>MEN{ menu==="b" ? <hr/> : <></>}</Link></li>
-                        <li onClick={()=>setMenu("c")}><Link style={{textDecoration:"none", color:"white"}} to="/womens" onClick={handleMenuClick}>WOMEN{ menu==="c" ? <hr/> : <></>}</Link></li>
-                        <li onClick={()=>setMenu("d")}><Link style={{textDecoration:"none", color:"white"}} to="/kids" onClick={handleMenuClick}>KIDS{ menu==="d" ? <hr/> : <></>}</Link></li>
+                        <li onClick={()=>setMenu("a")}><Link style={{textDecoration:"none", color:"white"}} to="/buySphere/" onClick={handleMenuClick}>SHOP{ menu==="a" ? <hr/> : <></>}</Link></li>
+                        <li onClick={()=>setMenu("b")}><Link style={{textDecoration:"none", color:"white"}} to="/buySphere/mens" onClick={handleMenuClick}>MEN{ menu==="b" ? <hr/> : <></>}</Link></li>
+                        <li onClick={()=>setMenu("c")}><Link style={{textDecoration:"none", color:"white"}} to="/buySphere/womens" onClick={handleMenuClick}>WOMEN{ menu==="c" ? <hr/> : <></>}</Link></li>
+                        <li onClick={()=>setMenu("d")}><Link style={{textDecoration:"none", color:"white"}} to="/buySphere/kids" onClick={handleMenuClick}>KIDS{ menu==="d" ? <hr/> : <></>}</Link></li>
                     </ul>
-                    <Link to="/login" className='link'><button onClick={handleMenuClick} style={{padding:"1rem 0"}}>LOGIN</button></Link>
+                    <Link to="/buySphere/login" className='link'><button onClick={handleMenuClick} style={{padding:"1rem 0"}}>LOGIN</button></Link>
                 </div>
             </div>
         </>

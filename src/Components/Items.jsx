@@ -7,7 +7,7 @@ function Items(props){
     return(
         <>
             <div className="item">
-                <Link to={`/products/${id}`}><img onClick={()=>window.scrollTo(0,0)} src={image} alt=""/></Link>
+                <Link to={`/buySphere/products/${id}`}><img onClick={()=>window.scrollTo(0,0)} src={image} alt=""/></Link>
                 <p>{name}</p>
                 
                 <div className="item-prices">                    

@@ -71,7 +71,7 @@ function CartItems(){
                                 </div>
                             </div>
 
-                            <Link to="/login"><button>PROCEED TO CHECKOUT</button></Link>
+                            <Link to="/buySphere/login"><button>PROCEED TO CHECKOUT</button></Link>
                         </div>
                     </div>
         </>

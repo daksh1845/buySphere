@@ -20,17 +20,17 @@ function App(){
         <Navbar/>
 
         <Routes>
-          <Route path="/" element={<Shop/>}/>
-          <Route path="/mens" element={<ShopCategory category="men"/>}/>
-          <Route path="/womens" element={<ShopCategory category="women"/>}/>
-          <Route path="/kids" element={<ShopCategory category="kid"/>}/>
+          <Route path="/buySphere/" element={<Shop/>}/>
+          <Route path="/buySphere/mens" element={<ShopCategory category="men"/>}/>
+          <Route path="/buySphere/womens" element={<ShopCategory category="women"/>}/>
+          <Route path="/buySphere/kids" element={<ShopCategory category="kid"/>}/>
 
-          <Route path="/products" element={<Product/>}>
+          <Route path="/buySphere/products" element={<Product/>}>
             <Route path=":productId" element={<Product/>}/>
           </Route>
 
-          <Route path="/cart" element={<Cart/>}/>
-          <Route path="/login" element={<LoginSignup/>}/>
+          <Route path="/buySphere/cart" element={<Cart/>}/>
+          <Route path="/buySphere/login" element={<LoginSignup/>}/>
         </Routes>
         
         <Footer/>

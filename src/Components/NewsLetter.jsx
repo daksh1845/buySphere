@@ -8,7 +8,7 @@ function NewsLetter(){
                 <p>Subscribe to our newsLetter and stay updated</p>
                 <div className="newsletter-form">
                     <input type="email" placeholder="Your Email id"/>
-                    <Link to='/login' onClick={()=>window.scrollTo(0,0)}><button>Subscribe</button></Link>
+                    <Link to='/buySphere/login' onClick={()=>window.scrollTo(0,0)}><button>Subscribe</button></Link>
                 </div>
             </div>
         </>
